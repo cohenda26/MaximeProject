@@ -66,3 +66,12 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Project info
+
+This project use 2 URL services
+1) https://www.live-rates.com/rates : Url to get all rates 
+ATTENTION : This url no longer works after 3 tries
+
+2) https://wss.live-rates.com/ : Url socket web service to receive tha data information on the rate
+ATTENTION : This url only works for 2 minutes, after that you have to wait 1 hour
